@@ -1,0 +1,5 @@
+# Run ./gradlew --write-locks to regenerate this file
+com.fasterxml.jackson.core:jackson-annotations:2.13.3 (1 constraints: 89123821)
+com.fasterxml.jackson.core:jackson-core:2.13.3 (1 constraints: 89123821)
+com.fasterxml.jackson.core:jackson-databind:2.13.3 (1 constraints: 3b053b3b)
+org.immutables:value:2.8.8 (1 constraints: 14051536)
