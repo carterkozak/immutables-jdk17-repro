@@ -38,6 +38,9 @@ allprojects {
     repositories {
         mavenCentral() { metadataSources { mavenPom(); ignoreGradleMetadataRedirection() } }
     }
+
+    // Turn off error-prone in order to reproduce failures from the command-line
+    tasks.withType(JavaCompile, { it.options.errorprone.enabled = false})
 }
 
 dependencies {
