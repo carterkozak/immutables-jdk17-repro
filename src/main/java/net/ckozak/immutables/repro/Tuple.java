@@ -16,8 +16,6 @@
 
 package net.ckozak.immutables.repro;
 
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -35,6 +33,4 @@ import org.immutables.value.Value;
         visibility = Value.Style.ImplementationVisibility.PUBLIC,
         stagedBuilder = true,
         allParameters = true)
-@JsonSerialize
-@JsonDeserialize
 public @interface Tuple {}
